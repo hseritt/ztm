@@ -1,0 +1,10 @@
+
+Factors in performance:
+
+- Location of server
+- Number of trips between client and server
+- Size of files (html, css, js / server side)
+
+
+https://www.submarinecablemap.com/
+https://en.wikipedia.org/wiki/Opte_Project
