@@ -3,3 +3,16 @@
 https://developer.mozilla.org/en-US/ MDN
 https://www.w3schools.com/
 
+CSS:
+
+https://css-tricks.com/
+https://css-tricks.com/almanac/ (reference page -- all css properties and examples)
+
+Images:
+
+https://unsplash.com/
+
+Colors:
+
+https://paletton.com/
+
