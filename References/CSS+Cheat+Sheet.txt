@@ -1,0 +1,49 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element
+
+element, element
+element1 element2 (element2 inside of element1)
+element > element
+element1 + element2 (element2 exactly *after* element1)
+
+A > B will only select B that are direct children to A (that is, there are no other elements inbetween).
+
+A B will select any B that are inside A, even if there are other elements between them.
+
+for "+":
+
+Select and style the first <p> element that are placed immediately after <div> elements:
+
+div + p {
+  background-color: yellow;
+}
+
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
+
+content 
+padding top right bottom left
+border px style color
+margin top right bottom left
+
+display: block; (vertical)
+display: inline-block; (horizontal)

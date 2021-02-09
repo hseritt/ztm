@@ -8,6 +8,9 @@ CSS:
 https://css-tricks.com/
 https://css-tricks.com/almanac/ (reference page -- all css properties and examples)
 
+https://www.w3schools.com/cssref/css_selectors.asp
+https://specificity.keegan.st/
+
 Images:
 
 https://unsplash.com/

@@ -1,3 +1,15 @@
 h2 {
 	color: blue;
 }
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	/* top, right, bottom, left - clockwise! */
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px 0px 20px;
+	width: 33px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
