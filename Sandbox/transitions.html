@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Transitions
+	</title>
+	<style>
+		#wrapper {
+			margin: 1em;
+		}
+
+		.box1 {
+			background: rgba(0, 0, 255, 0.1);
+		}
+		.box2 {
+			background: rgba(0, 255, 0, 0.1);
+		}
+		.box3 {
+			background: rgba(255, 0, 0, 0.1);
+		}
+
+		.box1, .box2, .box3 {
+			display: inline-block;
+			margin: 1em;
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
+			line-height: 100px;
+			text-align: center;
+		}
+
+		.enlarge {
+			transition: transform 1s;
+		}
+
+		.enlarge:hover {
+			transform: scale(1.2);
+			font-weight: bold;
+			font-family: fantasy;
+		}
+
+		.drop {
+			background: rgba(0, 0, 255, 0.2);
+			border-radius: 2% 50%;
+			height: 100px;
+			width: 100px;
+			transition: transform 3s;
+		}
+
+		.drop:hover {
+			transform: rotate(1800deg);
+		}
+
+		.square1 {
+			background: rgba(0, 255, 0, 0.1);
+			height: 100px;
+			width: 100px;
+			border-radius: 10px;
+		}
+
+		.square2 {
+			background: rgba(0, 255, 0, 0.1);
+			height: 100px;
+			width: 100px;
+			border-radius: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="box1 enlarge">
+			A
+		</div>
+		<div class="box2 enlarge">
+			B
+		</div>
+		<div class="box3 enlarge">
+			C
+		</div>
+
+		<div>
+			<h2>Rotate on Hover</h2>
+			<div class="drop">
+
+			</div>
+		</div>
+
+		<div>
+			<h2>Translate</h2>
+			<div class="square">
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

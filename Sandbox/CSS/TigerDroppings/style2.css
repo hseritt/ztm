@@ -1,0 +1,125 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #DEDEDE;
+	font-family: arial;
+}
+
+div.top {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+div.top > .left {
+	display: flex;
+	justify-content: flex-start;
+}
+
+div.top > .right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.bottom {
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr;
+}
+
+div.logo {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.main-links {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+div.identity {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+	align-items: center;
+	color: white;
+}
+
+.idt {
+	background-color: #622282;
+}
+
+.pipe {
+	height: 30px;
+	line-height: 30px;
+}
+
+div.content-body {
+	background-color: #eee;
+	margin-top: 7em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+div.content > .header {
+	display: flex;
+	/* justify-content: space-between; */
+	font-size: 11.5px;
+	font-weight: bold;
+	align-items: center;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+div.content-columns {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1.5fr;
+	padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+div.footer {
+
+}
+
+div.top {
+	background-color: #3D0858;
+}
+
+div.bottom {
+	background-color: #500974;
+}
+
+a.lite {
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+a.lite:hover {
+	text-decoration: underline;
+}
+
+.gold {
+	color: gold;
+}
+
+a.dark {
+	text-decoration: none;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+a.dark:hover {
+	text-decoration: underline;
+}
+
+div.links-column > .header {
+	color: darkgray;
+}
