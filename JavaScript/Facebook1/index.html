@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<h1>Hello <script>document.write(user.username);</script>!</h1>
+	<h2>Your Timeline:</h2>
+	<ul>
+	<script>
+		for (var i=0; i < feed.length; i++) {
+			document.write('<li>' + feed[i].username + '</li>');
+			document.write('<li>' + feed[i].timeline + '</li>');
+		}
+	</script>
+	</ul>
+</body>
+</html>
