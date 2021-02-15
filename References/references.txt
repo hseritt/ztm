@@ -63,3 +63,7 @@ https://cruip.com/ <- Startup landing page
 CSS Grid:
 
 https://grid.malven.co/
+
+Media Query Queries
+
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/

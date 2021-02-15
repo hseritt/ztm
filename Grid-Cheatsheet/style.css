@@ -1,0 +1,72 @@
+
+.container {
+	display: grid;
+}
+
+.just-grid {
+	display: grid;
+	/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+}
+
+.zone {
+	width: 200px;
+	height: 200px;
+	ransition: all 0.3s linear;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.inline-grid {
+	display: inline-grid;
+	grid-gap: 20px;
+	grid-template-rows: 1fr;
+}
+
+.justify-items {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	justify-items: stretch; /* default */
+	/*
+	justify-items: start;
+	justify-items: end;
+	justify-items: center;
+	*/
+}
+
+.align-items {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	/* align-items: stretch; */
+	/* align-items: start; */
+
+	align-items: end;
+	/* align-items: center; */
+	
+}
+
+.justify-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.zone {
+	justify-content: end;
+}

@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+           </li>
+           <li>
+             <a href="">About</a>
+           </li>
+           <li>
+             <a href="">Our Team</a>
+           </li>
+           <li class="push">
+             <a href="">Contact</a>
+           </li>
+         </ul>
+      </nav>
+    </header>
+    <div>
+      <div class="cover">
+        <img src="img/undraw.png">
+      </div>
+      <div class="item-grid">
+        <div class="item">
+          <img src="img/data_storage_2_2.png">
+        </div>
+        <div class="item">
+          <img src="img/desktop_analytics_2.png">
+        </div>
+        <div class="item">
+          <img src="img/files_2.png">
+        </div>
+        <div class="item">
+          <img src="img/monitor_coding_2.png">
+        </div>
+        <div class="item">
+          <img src="img/monitor_settings_2.png">
+        </div>
+        <div class="item">
+          <img src="img/server_2_2.png">
+        </div>
+        <div class="item">
+          <img src="img/server_3.png">
+        </div>
+        <div class="item">
+          <img src="img/server_safe_2.png">
+        </div>
+        
+      </div>
+      <footer>
+        <div class="footer-text">
+          <p>
+            This is my footer. Copyright 2021 All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript">
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+          $('footer').fadeOut();
+        } else {
+          $('footer').fadeIn();
+        }
+      });
+    </script>
+  </body>
+</html>
