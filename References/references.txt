@@ -67,3 +67,13 @@ https://grid.malven.co/
 Media Query Queries
 
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+
+JS - Dom
+
+https://www.w3schools.com/js/js_htmldom.asp
+
+Javascript Input / Events
+
+https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+https://developer.mozilla.org/en-US/docs/Web/Events
