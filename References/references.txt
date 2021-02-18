@@ -77,3 +77,20 @@ Javascript Input / Events
 
 https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
 https://developer.mozilla.org/en-US/docs/Web/Events
+
+JS Equality:
+
+https://dorey.github.io/JavaScript-Equality-Table/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+https://262.ecma-international.org/5.1/#sec-11.9.3
+
+Code Trainers:
+
+https://repl.it/
+
+Javascript Practice:
+
+1. https://github.com/getify/You-Dont-Know-JS
+2. http://javascript.info/
+3. http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/
+

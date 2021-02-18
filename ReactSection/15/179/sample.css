@@ -1,0 +1,23 @@
+.content {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	grid-gap: 1em;
+	padding: 1em;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
