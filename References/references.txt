@@ -94,3 +94,6 @@ Javascript Practice:
 2. http://javascript.info/
 3. http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/
 
+NPM versions:
+
+https://semver.npmjs.com
