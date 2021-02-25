@@ -1,0 +1,13 @@
+In most projects:
+
+1. HTML + CSS + JavaScript
+2. Github Repo + Git
+3. package.json file
+
+# npm -v
+# node -v
+# nvm -v
+
+Start a project: 
+
+# npm init
